@@ -1,7 +1,7 @@
 <?php
 /**
  * Asitee — простая защита от избыточных запросов
- * Copyright (c) 2025 Itry
+ * Copyright (c) 2026 Itry
  * Licensed under the ItryPublic License (IPL) 2.0.
  * See LICENSE file for full terms.
  * https://github.com/yourname/asitee
