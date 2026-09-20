@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asitee — открытая защита от избыточных запросов</title>
+    <meta name="description" content="Open source PHP-инструмент для rate limiting и блокировки IP на вашем сайте.">
+    <style>
+        * { box-sizing: border-box; }
+        body { margin:0; background:#0f172a; color:#cbd5e1; font-family: system-ui, -apple-system, sans-serif; line-height:1.6; }
+        .container { max-width: 1000px; margin:0 auto; padding:0 20px; }
+        header { padding:25px 0; border-bottom:1px solid #1e2937; display:flex; justify-content:space-between; align-items:center; }
+        .logo { font-weight:800; font-size:1.4rem; color:#fff; text-decoration:none; }
+        .hero { padding:80px 0 50px; text-align:center; }
+        .hero h1 { font-size:2.6rem; color:#f8fafc; margin-bottom:16px; }
+        .hero p { font-size:1.1rem; color:#94a3b8; max-width:640px; margin:0 auto 30px; }
+        .btn { display:inline-block; padding:12px 24px; border-radius:8px; text-decoration:none; font-weight:600; }
+        .btn-primary { background:#e11d48; color:#fff; }
+        .btn-primary:hover { background:#be123c; }
+        .note { background:#1e2937; border:1px solid #334155; border-radius:10px; padding:16px 20px; max-width:640px; margin:30px auto; font-size:0.9rem; text-align:left; }
+        .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:20px; padding:50px 0; }
+        .card { background:#1e2937; border:1px solid #334155; border-radius:14px; padding:24px; }
+        .card h3 { color:#f1f5f9; margin:0 0 8px; font-size:1.1rem; }
+        .card p { margin:0; color:#94a3b8; font-size:0.9rem; }
+        footer { border-top:1px solid #1e2937; padding:30px 0; text-align:center; color:#64748b; font-size:0.85rem; }
+        footer a { color:#38bdf8; text-decoration:none; }
+        code { background:#0f172a; padding:2px 6px; border-radius:4px; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <a href="/" class="logo">Asitee</a>
+        <a href="https://github.com/yourname/asitee" class="btn btn-primary" style="padding:8px 16px;font-size:0.85rem;">GitHub</a>
+    </header>
+
+    <section class="hero">
+        <h1>Простая защита сайта от избыточных запросов</h1>
+        <p>Открытый PHP-инструмент для ограничения частоты запросов и ручной
+           блокировки IP. Два файла, своя база данных, полный контроль
+           у владельца сайта.</p>
+        <a href="https://github.com/yourname/asitee" class="btn btn-primary">Смотреть код на GitHub</a>
+
+        <div class="note">
+            <strong>Важно:</strong> устанавливайте только на сайты, которыми
+            вы владеете или управляете с явного согласия владельца.
+            Весь исходный код открыт — проверьте его перед установкой.
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="card"><h3>Rate limiting по IP</h3><p>Настраиваемый порог запросов за период времени.</p></div>
+        <div class="card"><h3>Ручная блокировка</h3><p>Добавляйте и снимайте блокировки IP через панель.</p></div>
+        <div class="card"><h3>Белый список</h3><p>IP владельца сайта не подпадает под ограничения.</p></div>
+        <div class="card"><h3>Логи посещений</h3><p>С автоматической очисткой старых записей.</p></div>
+        <div class="card"><h3>Открытый код</h3><p>IPL 2.0, без телеметрии, без внешних запросов.</p></div>
+        <div class="card"><h3>Простая установка</h3><p>Один install.php, две минуты настройки.</p></div>
+    </section>
+
+    <footer>
+        <p>ItryPublic License (IPL) 2.0 · <a href="https://github.com/yourname/asitee">Исходный код на GitHub</a></p>
+    </footer>
+</div>
+</body>
+</html>
